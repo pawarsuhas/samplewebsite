@@ -1,0 +1,188 @@
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f0f0; /* Light Gray Background */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #000; /* Set text color to black */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0
+    transition: opacity 0.3s ease-in-out;
+}
+/* ... (previous CSS code) ... */
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #000; /* Set text color to black */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+/* Hero Section Styles */
+#hero {
+    background: url('podcast-hero-bg.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Episode Card Styles */
+.episode-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.episode-card:hover {
+    transform: scale(1.05);
+}
+
+.episode-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.episode-info {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Highlight Card Styles */
+.highlight-card {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.highlight-card:hover {
+    transform: scale(1.05);
+}
+
+/* Community Section Styles */
+#community {
+    background-color: #f0f0f0;
+}
+
+/* Merchandise Section Styles */
+#merchandise {
+    background-color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+/* Animation Styles */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+
